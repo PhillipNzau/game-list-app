@@ -1,0 +1,21 @@
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120%;
+}
+mat-grid-tile {
+  background: lightblue;
+}
+.title-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120%;
+  /*font-weight: inherit;*/
+}
+.card-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 90%;
+  color: #6f6f72;
+}
+.registration-link {
+  text-decoration: none;
+  color: #1e87e4;
+}
