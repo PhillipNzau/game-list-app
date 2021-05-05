@@ -1,57 +1,89 @@
-<div class="container">
-  <!--  top title introduction/about card-->
-  <div class="card mb-3 shadow-sm">
-    <div class="card-header">
-      <fa-icon [icon]="faCoffee" size="lg"></fa-icon><span class="title-text"> Welcome to MyVideoGameList!</span>
+<div class="container-fluid">
+
+  <div class="row flex-nowrap">
+    <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+      <app-navbar></app-navbar>
     </div>
-    <div class="card-body">
-      <p class="card-text">
-        Not a member? We'd love to have you join our community.
-        On MyVideoGameList you can create your own profile,
-        keep track of your video games, meet new friends, and even write reviews on your favorite games
-        (or even for games you hated). We currently have <b>102523</b> members, and <b>59196</b>
-        games in our database!. So what are you waiting for? <a href="" class="registration-link">Registration is free</a> and only takes a few seconds! If you love video games, then come join our community! Click on the little blue icon with the controller in the upper right corner.</p>
-    </div>
-  </div>
-  <!-- end top title introduction/about card-->
+    <!--  <div class="home-side-nav col-sm-2">-->
+    <!--    <app-side-nav></app-side-nav>-->
+    <!--  </div>-->
 
-  <div class="row">
-    <!-- main panel news-->
-    <div class="col-sm-8">
-      <div class="card shadow-sm" >
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Latest News</li>
-        </ul>
-        <div class="card-body">
-          <h1>CyberPunk 2077</h1><span></span>
-          <h5>Picked by jimmyb</h5>
-          <img class="img-fluid" height="150vh" src="https://s3.amazonaws.com/imgdrop.us/images/2G5QLnpN.png" alt="">
-          <h5>Actually this is the worst game... </h5>
+
+    <div class="col py-3">
+      <!--  top title introduction/about card-->
+      <div class="card mb-3 shadow-sm mt-3">
+        <div class="card-header">
+          <fa-icon [icon]="faCoffee" size="lg"></fa-icon>
+          <span class="title-text"> Welcome to MyVideoGameList!</span>
         </div>
-
         <div class="card-body">
-          <h1>Assassin's Creed Valhalla</h1><span></span>
-          <h5>Picked by jimmyb</h5>
-          <img class="img-fluid" height="150vh" src="https://s3.amazonaws.com/imgdrop.us/images/2G5S4g00.jpg" alt="">
-          <h5>Okay, so my pick for 2020 is Assassin's Creed Valhalla, out of my top three, Valhalla had the least glitches. I loved the return of the Hidden Blade and callbacks to Assassin's Creed III. The story was also more engaging than the previous entry in the series, as each member of the Order of the Ancients go their own death monologue, similar to previous titles. Hunting down the Order also feels less like a wild goose chase and more a serious hunt. I also enjoyed the continued expansion of the lore, with many more Norse/Gaelic deities revealed to be Isu. The combat also improved, feeling much more like Origins with some added brutality. Blocking and counterattacking is also much easier too. There are some issues timeline-wise, it's difficult to track when certain quests are occuring but with historical fact checking I worked out a rough basis. With this title being the newest in a long line of titles, it's obviously not recommended as an introduction to the series. At the very least - play Origins and Odyssey first. </h5>
-        </div>
-
-        <div>
-          <button class="btn btn-block" style="background-color: #9d4edd; color: white">Login</button>
+          <p class="card-text">
+            Not a member? We'd love to have you join our community.
+            On MyVideoGameList you can create your own profile,
+            keep track of your video games, meet new friends, and even write reviews on your favorite games
+            (or even for games you hated). We currently have <b>102523</b> members, and <b>59196</b>
+            games in our database!. So what are you waiting for? <a href="" class="registration-link">Registration is
+            free</a> and only takes a few seconds! If you love video games, then come join our community! Click on the
+            little blue icon with the controller in the upper right corner.</p>
         </div>
       </div>
-    </div>
-    <!-- main panel news-->
-    <div class="col-sm-4">
-      <div class="card shadow-sm" >
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Recent Gamer Updates</li>
-        </ul>
-        <div class="card-body">
-          <div></div>
+      <!-- end top title introduction/about card-->
+
+      <div class="row">
+        <!-- main panel news-->
+        <div class="col-sm-8 mb-2">
+          <div class="card shadow-sm">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Latest News</li>
+            </ul>
+            <div class="card-body">
+              <h1>CyberPunk 2077</h1><span></span>
+              <h5>Picked by jimmyb</h5>
+              <img class="img-fluid" height="150vh" src="https://s3.amazonaws.com/imgdrop.us/images/2G5QLnpN.png"
+                   alt="">
+              <h5>Actually this is the worst game... </h5>
+            </div>
+
+            <div class="card-body">
+              <h1>Assassin's Creed Valhalla</h1><span></span>
+              <h5>Picked by jimmyb</h5>
+              <img class="img-fluid" height="150vh" src="https://s3.amazonaws.com/imgdrop.us/images/2G5S4g00.jpg"
+                   alt="">
+              <h5>Okay, so my pick for 2020 is Assassin's Creed Valhalla, out of my top three, Valhalla had the least
+                glitches. I loved the return of the Hidden Blade and callbacks to Assassin's Creed III. The story was
+                also
+                more engaging than the previous entry in the series, as each member of the Order of the Ancients go
+                their
+                own death monologue, similar to previous titles. Hunting down the Order also feels less like a wild
+                goose
+                chase and more a serious hunt. I also enjoyed the continued expansion of the lore, with many more
+                Norse/Gaelic deities revealed to be Isu. The combat also improved, feeling much more like Origins with
+                some added brutality. Blocking and counterattacking is also much easier too. There are some issues
+                timeline-wise, it's difficult to track when certain quests are occuring but with historical fact
+                checking
+                I worked out a rough basis. With this title being the newest in a long line of titles, it's obviously
+                not
+                recommended as an introduction to the series. At the very least - play Origins and Odyssey first. </h5>
+            </div>
+
+            <div>
+              <button class="btn btn-block" style="background-color: #9d4edd; color: white">Login</button>
+            </div>
+          </div>
+        </div>
+        <!-- main panel news-->
+        <div class="col-sm-4 mb-3">
+          <div class="card shadow-sm">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Recent Gamer Updates</li>
+            </ul>
+            <div class="card-body">
+              <div></div>
+            </div>
+          </div>
         </div>
       </div>
+
     </div>
   </div>
-
 </div>

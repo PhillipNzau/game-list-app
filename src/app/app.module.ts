@@ -9,7 +9,7 @@ import {MatSliderModule} from '@angular/material/slider';
 import {FormsModule} from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
 import { HomeComponent } from './components/home/home.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
+import { NavbarComponent } from './components/top-navbar/navbar.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
@@ -18,7 +18,7 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
