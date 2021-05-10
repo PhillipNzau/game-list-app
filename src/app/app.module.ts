@@ -13,7 +13,6 @@ import { NavbarComponent } from './components/top-navbar/navbar.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
-
 @NgModule({
   declarations: [
     AppComponent,
