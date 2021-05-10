@@ -12,12 +12,16 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/top-navbar/navbar.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import { SideNavComponent } from './components/home/side-nav/side-nav.component';
+import { SideNavDesktopComponent } from './components/home/side-nav-desktop/side-nav-desktop.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
+    SideNavComponent,
+    SideNavDesktopComponent,
   ],
   imports: [
     BrowserModule,
